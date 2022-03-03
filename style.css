@@ -3,5 +3,10 @@
     margin: 0px;
 } 
 input{
-    font-size:10px;
+    font-size:11px;
+    padding: 3px;
+    margin: 3px;
+}
+button{
+    font-size: 13px;
 }
