@@ -15,8 +15,9 @@ function add(){
     if (input_two.length == 3 ) {
         name_key[input_two] = input_one
         name_one.push(input_one);
-        console.log(name_key);
-        console.log(name_one)
+       /*  console.log(name_key); 
+        console.log(name_one); */
+        alert('Elemento Añadido')
 
     }else if(input_two.length > 3  ){
         alert('Solo tres digitos')
@@ -41,8 +42,10 @@ function search(){
         }
             console.log('¡Alerta No presionar mas de una vez!')
     }
+   
 }
 
 function eliminate() {
     
+
 }
